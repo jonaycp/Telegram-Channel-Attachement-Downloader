@@ -12,15 +12,17 @@ from telethon.tl.types import InputMessagesFilterDocument
 
 NUM_FILES = 10
 CHANNEL_NAME = "@MagazinezWorld"
-
+API_ID = ""
+HASH = ""
+SESSION_NAME = ""
 
 #logging.basicConfig(level=logging.DEBUG)
 
 # If you change the session name - it will require 2 factor authentication again.
 
-def main(api_id = "663618"
-        ,api_hash = "2dc66a0596782470881064041b1fa79d"
-        ,session_name = "telebooks"):
+def main(api_id = API_ID
+        ,api_hash = HASH
+        ,session_name = SESSION_NAME):
 
     # TODO Ask to download specific files [message.download_media(filename)]
     # TODO limit by date [?]
